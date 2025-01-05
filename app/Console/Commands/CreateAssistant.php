@@ -36,9 +36,9 @@ class CreateAssistant extends Command
                     'file_ids' => [$fileId], // Pasamos el ID del archivo subido
                 ],
             ],
-            'instructions' => 'Eres un bot útil que ayuda a desarrolladores que utilizan el framework Laravel. 
-                Puedes responder preguntas sobre el framework y ayudarles a encontrar la documentación adecuada. 
-                Usa los archivos subidos para responder las preguntas. Las respuestas siempre deben estar en español.',
+            'instructions' => 'You are a useful bot that helps developers using Laravel Framework.
+                You can answer questions about the framework and help them find the appropriate documentation.
+                Use the uploaded files to answer questions. Answers must always be returned in Spanish.',
 
             'model' => 'gpt-4o-mini-2024-07-18',
         ]);
